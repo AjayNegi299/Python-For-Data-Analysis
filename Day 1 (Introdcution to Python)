@@ -1,0 +1,39 @@
+#Q1-print hello World
+print("Hello World")
+
+
+#Q.2 describe local variable and global variable code
+x = "I am a global variable"
+def my_function():
+    x = "I am a local variable"
+    print(x)  # This will print the local variable
+
+my_function()
+print(x)  # This will print the global variable
+
+
+
+#Q3-Write a code that describe Indentation error
+x = 10
+if x > 5:
+    print("x is greater than 5")
+
+
+#Q.4 write a code that describe local and global variable with same name
+
+var = "I am a global variable"
+
+def my_function():
+    var = "I am a local variable"
+    print(var)  # This will print the local variable
+
+my_function()
+print(var)  # This will print the global variable
+
+
+
+#Q.5 Write a code for string, int and float input.
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+height = float(input("Enter your height in meters: "))
+print(f"Name: {name}, Age: {age}, Height: {height}m")
